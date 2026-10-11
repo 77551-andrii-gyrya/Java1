@@ -60,7 +60,7 @@ public class QuadraticEqu {
         return b * b - (4 * a * c);
     }
 
-    /// dla D > 0
+    /// case 0: D > 0
     public static double X1_case0(double a, double b, double D){
         return ((-1)*b + Math.sqrt(D))/(2*a);
     }
@@ -68,12 +68,12 @@ public class QuadraticEqu {
         return ((-1)*b - Math.sqrt(D))/(2*a);
     }
 
-    /// dla D = 0
+    /// case 1: D = 0
     public static double X_case1(double a, double b){
         return ((-1)*b)/(2*a);
     }
 
-    /// dla D < 0
+    /// case 2: D < 0
     public  static double X1_case2_part1(double a, double b){
         return ((-1)*b)/(2*a);
     }
